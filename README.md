@@ -3,7 +3,6 @@
 A simple CRUD (Create, Read, Update, Delete) application that allows users to manage data efficiently. This project demonstrates basic CRUD operations using a clean UI and structured backend logic.
 
 # 🚀 Features
-
 Create new records
 
 View existing records
@@ -15,15 +14,12 @@ Delete records
 User-friendly interface
 
 Responsive design
-
 # 🛠️ Tech Stack
-
 Frontend: HTML, CSS
 
 Backend/feamework: Python/ Django
 
-Database: Default django
-
+Database: Default [db.sqlite3]
 # UI view
 # <img width="1366" height="582" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/96094d08-e521-433c-bf93-7eee0ff88588" />
 
