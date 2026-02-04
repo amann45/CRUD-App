@@ -31,6 +31,8 @@ Database: Default [db.sqlite3]
 # <img width="1366" height="617" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/469119ee-cfbb-4ea9-b00c-a2cadb1f55f0" />
 
 # ⚙️ Installation & Setup
-#### git clone https://github.com/your-username/your-repo-name.git
-#### cd your-repo-name
-#### python manage.py runserver
+git clone https://github.com/your-username/your-repo-name.git
+
+cd your-repo-name
+
+python manage.py runserver
