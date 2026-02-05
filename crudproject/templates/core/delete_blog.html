@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 420px;
+            margin: 120px auto;
+            background: #ffffff;
+            padding: 25px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        h3 {
+            color: #444;
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+
+        button {
+            background-color: #d9534f;
+            color: #fff;
+            border: none;
+            padding: 8px 18px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #c9302c;
+        }
+
+        a {
+            display: block;
+            margin-top: 15px;
+            color: #555;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h3>Do you really want to delete this blog?</h3>
+
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Confirm</button>
+    </form>
+
+    <a href="{% url 'home' %}">Cancel</a>
+
+</div>
+
+</body>
+</html>

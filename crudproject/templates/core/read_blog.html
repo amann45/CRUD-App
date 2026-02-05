@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ obj.title }}</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 760px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 25px;
+            border: 1px solid #ddd;
+        }
+
+        h1 {
+            margin-bottom: 8px;
+            font-size: 26px;
+        }
+
+        h5 {
+            color: #666;
+            font-weight: normal;
+            line-height: 1.5;
+            margin-bottom: 18px;
+            font-size: 14px;
+        }
+
+        p {
+            line-height: 1.7;
+            font-size: 15px;
+            color: #444;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>{{ obj.title }}</h1>
+
+    <h5>
+        <span>By: {{ obj.author }}</span><br>
+        <span>Date: {{ obj.date_of_post.date }}</span><br>
+
+        {% load tz %}
+        {% timezone 'Asia/Kathmandu' %}
+            <span>Last edited: {{ obj.last_updated }}</span>
+        {% endtimezone %}
+    </h5>
+
+    <p>{{ obj.content }}</p>
+
+    <a href="{% url 'home' %}">← Back to Home</a>
+
+</div>
+
+</body>
+</html>
