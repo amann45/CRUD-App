@@ -21,14 +21,15 @@ Backend/feamework: Python/ Django
 
 Database: Default [db.sqlite3]
 # UI view
-# <img width="1366" height="582" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/96094d08-e521-433c-bf93-7eee0ff88588" />
-# <img width="1366" height="593" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/3c59591c-2c06-499e-9713-1fd038e8da65" />
-# <img width="1273" height="578" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/9f95b1f4-bc28-46ed-b3e7-494c147bdeba" />
-# <img width="1314" height="605" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/91d6ed9c-d4de-490b-a965-ddf4a27adb3f" />
-# <img width="1312" height="601" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/2b6d4f13-47ea-4986-8364-580dfaf7c02d" />
+# <img width="1311" height="590" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/21ba98a6-e257-4eb9-a153-9d24085487bd" />
+# <img width="1319" height="617" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/b6de6496-b98e-447a-a4d2-35b5c5607e50" />
+# <img width="1324" height="590" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/02fa849a-26ee-4404-a2fa-54bece4e6d1c" />
+# <img width="1331" height="609" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/dddb1e74-06b2-41fd-a579-c09dc8bf3c8d" />
+# <img width="1316" height="578" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/daff9b6e-9fa7-4265-93b0-deb50958abd5" />
+
 # Admin View
 # <img width="1366" height="574" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/96575579-7f14-43f1-9549-3a1fe8da746e" />
-# <img width="1366" height="617" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/469119ee-cfbb-4ea9-b00c-a2cadb1f55f0" />
+# <img width="1357" height="621" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/aa5408ea-93ff-489f-934d-a2677ceda220" />
 
 # ⚙️ Installation & Setup
 git clone https://github.com/your-username/your-repo-name.git
